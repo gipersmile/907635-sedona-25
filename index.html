@@ -7,8 +7,8 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
-        <a class ="logo-adress">
-          <svg width="140" height="72" viewBox="0 0 138 70" xmlns="http://www.w3.org/2000/svg">
+        <a class="logo-adress">
+          <svg class="main-logo-img" width="140" height="72" viewBox="0 0 138 70" xmlns="http://www.w3.org/2000/svg">
             <path d="M138 0H0l59.51 65.68c5.22 5.761 13.76 5.761 18.98 0z" fill="#81b3d3"/>
             <path d="M36.687.457l32.148 37.879 32.02-37.65z" fill="#23a9e1"/>
             <path d="M61.1 14.719h17.32c-1.29-.8-4.355-4.582-6.043-3.176-.137.115-4.871-5.744-7.982-2.921-2.713 2.466-3.973-.323-7.048 1.63-3.505 2.318 2.026 3.684 3.753 4.467m26.73-3.478l-9.86.054c3.896-4.5 5.647-4.018 9.86-.054" fill="#fff"/>
@@ -62,9 +62,9 @@
             <h3>Там есть мост Дьявола</h3>
               <p class="reason-numeration-type-1">№2</p>
               <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-              <img src="img/jpg-sedona/Deavels_bridge_canyon_photo.jpg" class="Deavels_bridge" width="800" height="256" alt="Мост Дьявола">
+              <img src="img/jpg-sedona/deavels_bridge_canyon_photo.jpg" class="deavels_bridge" width="800" height="256" alt="Мост Дьявола">
           </section>
-          <section class="reason-3,4,5">
+          <section class="reason-3-4-5">
             <ul>
               <li>
                 <h3>Небольшая площадь</h3>
@@ -86,7 +86,30 @@
       <section class="search-form-title">
         <span class="question">Заинтересовались?</span>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <!--ТуТ будет форма-->
+        <fieldset class="hotel-search">
+          <legend>Поиск гостиницы в Седоне</legend>
+          <form class="hotel-search-form" method="get" action="#">
+          <div class="dates">
+            <label>
+              Дата заезда:
+              <input type="date" class="check-in-date" name="check-in-date">
+            </label>
+            <label>
+              Дата выезда:
+              <input type="date" class="departure-from-date" name="departure-from-date">
+            </label>
+          </div>
+          <div class="type-of-visitor">
+            <label class="adult-visitor-label">Взрослые:
+              <input type="number" class="adult-visitor" min="0" max="10" step="1">
+            </label>
+            <label class="child-visitor-label">Дети:
+              <input type="number" class="child-visitor" min="0" max="10" step="1">
+            </label>
+          </div>
+          <button class="hotel-search-button" type="submit">Найти</button>
+          </form>
+        </fieldset>
       <section>
     </main>
     <footer class="main-footer">
