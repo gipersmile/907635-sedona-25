@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
@@ -29,60 +32,60 @@
       </nav>
     </header>
     <main>
-      <p class="welcome-phrase">
-        <span class="welcome">Welcome</span> to the gergeous
-      </p>
-      <h1 class="site-name">SEDONA</h1>
-      <q class="motto">Because the Grand Canyon sucks!</q>
-      <p class ="fact-1">Седона - небольшой городок в Аризоне</br>Заслуживающий большего!</p>
-        <h2 class="">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</h2>
-          <section class="reason-1">
+      <section class="intro-block">
+        <img class="title-welcome-word" src="img/png-sedona/title-welcome-words.png" width="459" height="353" alt="Welcome to the gergeous Sedona">
+        <div class="intro-block-bottom" >
+          <p class="fact-1">Седона - небольшой городок в Аризоне</br>Заслуживающий большего!</p>
+          <h2 class="reasons">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</h2>
+        </div>
+      </section>
+      <section class="reason-type-1">
             <h3>Настоящий городок</h3>
               <p class="reason-numeration-type-1">№1</p>
               <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
               <img src="img/jpg-sedona/cafe.jpg" class="cafe" width="800" height="256" alt="Кафе Седоны">
-          </section>
-          <section class="bonus-features">
-            <ul>
-              <li>
-                <h3>Жилье</h3>
-                <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
-              </li>
-              <li>
-                <h3>Еда</h3>
-                <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-              </li>
-              <li>
-                <h3>Сувениры</h3>
-                <p>Не только китайского, но и местного производства!</p>
-              </li>
-            </ul>
-          </section>
-          <section class="reason-2">
-            <h3>Там есть мост Дьявола</h3>
-              <p class="reason-numeration-type-1">№2</p>
-              <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-              <img src="img/jpg-sedona/deavels_bridge_canyon_photo.jpg" class="deavels_bridge" width="800" height="256" alt="Мост Дьявола">
-          </section>
-          <section class="reason-3-4-5">
-            <ul>
-              <li>
-                <h3>Небольшая площадь</h3>
-                  <p class="reason-numeration-type-2">№3</p>
-                  <p>Все достопримечательности находятся очень близко</p>
-              </li>
-              <li>
-                <h3>Красивая дорога</h3>
-                  <p class="reason-numeration-type-2">№4</p>
-                  <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-              </li>
-              <l
-                <h3>Мало туристов</h3>
-                  <p class="reason-numeration-type-2">№5</p>
-                  <p>Большинство едет в гранд каньон и толпится там</p>
-              </li>
-            </ul>
-          </section>
+      </section>
+      <section class="bonus-features">
+        <ul class="bonus-features-list">
+          <li>
+            <h3>Жилье</h3>
+              <p>Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          </li>
+          <li>
+            <h3>Еда</h3>
+            <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+          <li>
+            <h3>Сувениры</h3>
+            <p>Не только китайского, но и местного производства!</p>
+          </li>
+        </ul>
+      </section>
+      <section class="reason-type-1">
+        <h3>Там есть мост Дьявола</h3>
+          <p class="reason-numeration-type-1">№2</p>
+          <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          <img src="img/jpg-sedona/deavels_bridge_canyon_photo.jpg" class="deavels_bridge" width="800" height="256" alt="Мост Дьявола">
+      </section>
+      <section class="reason-3-4-5">
+        <ul class="reason-3-4-5-list">
+          <li>
+            <h3>Небольшая площадь</h3>
+              <p class="reason-numeration-type-2">№3</p>
+              <p>Все достопримечательности находятся очень близко</p>
+          </li>
+          <li>
+            <h3>Красивая дорога</h3>
+              <p class="reason-numeration-type-2">№4</p>
+              <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li>
+            <h3>Мало туристов</h3>
+              <p class="reason-numeration-type-2">№5</p>
+              <p>Большинство едет в гранд каньон и толпится там</p>
+            </li>
+        </ul>
+      </section>
       <section class="search-form-title">
         <span class="question">Заинтересовались?</span>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
@@ -110,7 +113,7 @@
           <button class="hotel-search-button" type="submit">Найти</button>
           </form>
         </fieldset>
-      <section>
+      </section>
     </main>
     <footer class="main-footer">
       <p class="hashtag">#VISITSEDONA</p>
@@ -125,6 +128,6 @@
         <em>Website by</em>
         <a  href=""><img class="creater-logo" src="img/png-sedona/creater-logo.png" width="115" height="41" alt="Лого разработчика"></a>
       </section>
-    <footer>
+    </footer>
   </body>
 </html>

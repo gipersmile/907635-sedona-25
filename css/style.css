@@ -1,0 +1,142 @@
+body {
+  padding: 0;
+  margin: 0;
+
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-height: 21px;
+  color: #333333;
+  text-transform: uppercase;
+
+  background-color:#ffffff
+}
+
+a{
+  text-decoration: none;
+}
+.main-navigation{
+  line-height: 26px;
+  color: #000000;
+
+  background-color:#ffffff
+}
+
+.logo-adress{
+  display:block;
+  text-align:center;
+}
+.site-navigation{
+  margin:0;
+  padding: 4px
+}
+
+.site-navigation li{
+  list-style:none;
+  display: inline;
+}
+
+.site-navigation a{
+  color:#000000;
+}
+.intro-block{
+  background-image: url("../img/jpg-sedona/background_photo.jpg");
+  background-position: top center;
+  background-repeat: no-repeat
+}
+.title-welcome-word {
+  display:block;
+  margin:15px auto 25px;
+}
+
+.intro-block-bottom{
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 14px;
+  font-height: 21px;
+  color: #333333;
+  text-transform: uppercase;
+  text-align:center;
+
+  background-color:#ffffff
+}
+.fact-1{
+  font-size: 21px;
+  font-height: 26px;
+  font-weight:bold;
+  color: #000000;
+
+  background-color:#ffffff
+
+}
+.reasons{
+  font-size: 14px;
+  font-height: 26px;
+  font-weight:bold;
+  color: #333333;
+
+  background-color:#ffffff
+}
+
+.hashtag{
+  font-size: 21px;
+  font-height: 26px;
+  color: #000000;
+
+  background-color:#ffffff
+}
+
+.created-by{
+  font-size: 14px;
+  font-height: 26px;
+  color: #333333;
+
+  background-color:#ffffff
+}
+
+.footer-social li{
+  list-style:none;
+  display: inline;
+}
+
+.reason-type-1{
+  background-color: #81b3d2
+}
+.reason-type-1 p{
+  color:#ffffff;
+
+  background-color:#81b3d2
+}
+.reason-type-1 h3{
+  font-size: 21px;
+  font-height: 21px;
+  color:#ffffff;
+
+  background-color:#81b3d2
+}
+
+.bonus-features-list li{
+  list-style:none;
+  display: inline;
+}
+
+.bonus-features-list h3{
+  font-size: 14px;
+  font-height: 26px;
+  font-weight:bold;
+  color: #000000;
+
+  background-color:#ffffff
+}
+
+.reason-3-4-5-list li{
+  list-style:none;
+  display: inline;
+}
+.bonus-features-list h3{
+  font-size: 14px;
+  font-height: 26px;
+  font-weight:bold;
+  color: #000000;
+
+  background-color:#ffffff
+}
+.reason-3-4-5
